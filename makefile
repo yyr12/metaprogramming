@@ -5,4 +5,4 @@ plot-%.png: %.dat plot.py
 .PHONY:clean
 clear:
 	rm *.pdf *.aux *.png *.log
-	git ls-files -o | xargs rm -f
+	git ls-files -o|xargs rm -f
