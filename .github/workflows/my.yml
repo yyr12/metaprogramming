@@ -3,8 +3,7 @@ on: [push]
 jobs:
    mdtest:
       runs-on: ubuntu-latest
-      steps:
-      - name: Writegood Check
-       # You may pin to the exact commit or the version.
-       # uses: mnahinkhan/writegood-action@ceeb9d4a5470be45a0848788167ff08693248e17
-        uses: mnahinkhan/writegood-action@v1.0.0
+      steps:    
+      - name: Lint Markdown 
+        uses: tomwhross/write-good-action@v1.6
+       
